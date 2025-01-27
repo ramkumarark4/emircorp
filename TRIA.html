@@ -95,7 +95,7 @@
                                
                             </ul>
                         </li>
-                        <li><a class="dropdown-item" href="#">Audits and Assessments</a></li>
+                        <li><a class="dropdown-item" href="Audits_and_Assesments.html">Audits and Assessments</a></li>
                       </ul>
                   </li>
                   <li class="nav-item">
@@ -245,35 +245,8 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-        // jQuery to toggle active class
-$(document).ready(function() {
-    $(".navbar-nav .nav-link").on("click", function() {
-        $(".navbar-nav .nav-link").removeClass("active");
-        $(this).addClass("active");
-    });
-});
-$(document).ready(function () {
-	
-            // Loop through each collapse element
-            $('[data-bs-toggle="collapse"]').each(function () {
-                var target = $(this).attr('href'); // Get the collapse target (e.g., #content1)
+    <script src="./js/script.js"></script>
 
-                // Handle show event
-                $(target).on('show.bs.collapse', function () {
-                    const icon = $(this).prev().find('.toggle-icon');
-                    icon.removeClass('fa-chevron-down').addClass('fa-chevron-up');
-                });
-
-                // Handle hide event
-                $(target).on('hide.bs.collapse', function () {
-                    const icon = $(this).prev().find('.toggle-icon');
-                    icon.removeClass('fa-chevron-up').addClass('fa-chevron-down');
-                });
-            });
-        });
-
-       </script>
   </body>
 <footer
           class="text-center text-lg-start text-dark mt-0"
