@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hazid</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+  <div class="container-fluid">
+      <a class="navbar-brand text-success" href="index.html"><img src="./img/Logo.png" alt="EmirCorp Logo" style="height: 55px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link" href="Index.html"><i class="fas fa-home"></i>Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link active ls dropdown-toggle" href="#" role="button"><i class="fas fa-tools"></i>Services</a>
+                  <ul class="dropdown-menu nav-drpdn">
+                      <li class="dropdown">
+                          <a class="dropdown-item dropdown-toggle" href="#">Process Safety and Management</a>
+                          <ul class="dropdown-menu">
+                              <li class="dropdown">
+                                  <a class="dropdown-item dropdown-toggle" href="#">Process Safety and Management</a>
+                                  <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="hazid.html">HAZID Study</a></li>
+                                      <li><a class="dropdown-item" href="hazop.html">HAZOP Study</a></li>
+                                      <li><a class="dropdown-item" href="alarp_assessment.html">ALARP Assessment</a></li>
+                                      <li><a class="dropdown-item" href="bowtie_analysis.html">BOW tie Analysis</a></li>
+                                      <li><a class="dropdown-item" href="Sil_Assessment.html">SIL/LOPA Assessment</a></li>
+                                      <li><a class="dropdown-item" href="safety_cases.html">Safety Cases</a></li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="#">Technical Risk</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="FERA.html">Fire and Explosion Risk Assessment (FERA)</a></li>
+                                    <li><a class="dropdown-item" href="ESSA.html">Emergency System Survivability Analysis (ESSA)</a></li>
+                                    <li><a class="dropdown-item" href="EERA.html">Escape, Evacuation and Rescue Analysis (EERA)</a></li>
+                                    <li><a class="dropdown-item" href="flare.html">Flared Radiation and Vent Dispersion Study (FLARE Study)</a></li>
+                                    <li><a class="dropdown-item" href="GDM.html">Gas Dispersion Modelling (In 2D and 3D Forms)</a></li>
+                                    <li><a class="dropdown-item" href="QRA.html">Quantitative Risk Assessment (QRA)</a></li>
+                                    <li><a class="dropdown-item" href="TRIA.html">Temporary Refuge Impairment Analysis (TRIA)</a></li>
+                                    <li><a class="dropdown-item" href="NHHA.html">Non-Hydrocarbon Hazard Analysis (NHHA)</a></li>
+                                    
+                                </ul>
+                            </li>
+                              <li class="dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="#">Loss Prevention</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="DofHS.html">Development of HSE Philosophies</a></li>
+                                    <li><a class="dropdown-item" href="HAC.html">Hazardous Area Classification</a></li>
+                                    <li><a class="dropdown-item" href="FGDL.html">Fire and Gas Detection Layouts</a></li>
+                                    <li><a class="dropdown-item" href="RAM.html">RAM Study</a></li>
+                                </ul>
+                            </li>
+                              <li class="dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="#">Operational Safety</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="FVIAR.html">FEED Verification / Independent Assurance and Review</a></li>
+                                    <li><a class="dropdown-item" href="SafetyR.html">Safety Review</a></li>
+                                    <li><a class="dropdown-item" href="ReadinessR.html">Readiness Review</a></li>
+                                    <li><a class="dropdown-item" href="MOCr.html">MOC Review / Close-Outs</a></li>
+                                    <li><a class="dropdown-item" href="ERS.html">Emergency Response Solutions</a></li>
+                                    <li><a class="dropdown-item" href="HSEOPG.html">HSE Operating Procedures/Guidelines</a></li>
+                                </ul>
+                            </li>
+                          </ul>
+                      </li>
+                
+                      <li class="dropdown">
+                        <a class="dropdown-item dropdown-toggle" href="#">Engineering Services</a>
+                        
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Process_eng.html">Process Engineering</a></li>
+                            <li><a class="dropdown-item" href="Mechanical_eng.html"> Mechanical Engineering</a></li>
+                            <li><a class="dropdown-item" href="Civil_eng.html">Civil Engineering</a></li>
+                            <li><a class="dropdown-item" href="Piping.html">Piping</a></li>
+                            <li><a class="dropdown-item" href="Electrical_eng.html">Electrical  Engineering</a></li>
+                            <li><a class="dropdown-item" href="Instrumentation_eng.html">Instrumentation Engineering </a></li>
+                            <li><a class="dropdown-item" href="Telecommunication_eng.html">Telecommunication Engineering</a></li>
+                            <li><a class="dropdown-item" href="Pipeline_Design_eng.html">Pipeline Design & Engineering</a></li>
+                            <li><a class="dropdown-item" href="Structural_eng.html">Structural Engineering</a></li>
+                            <li><a class="dropdown-item" href="Drafting_eng.html">Drafting Engineering</a></li>
+                            <li><a class="dropdown-item" href="Multi_discipline_eng.html">Multi-discipline Engineering</a></li>
+
+                           
+                        </ul>
+                    </li>
+                    <li><a class="dropdown-item" href="Audits_and_Assesments.html">Audits and Assessments</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="Industries.html"><i class="fas fa-industry"></i>Industries</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="Careers.html"><i class="fas fa-users"></i>Careers</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="AboutUs.html"><i class="fas fa-address-card"></i>About Us</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="Contact.html"><i class="fas fa-phone-alt"></i>Contact</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
+
+
+    <section class="service-section">
+      <img src="./img/electrical.jpg" alt="Background Image" class="background-image">
+      <div class="overlay"></div>
+      <div class="content">
+        <h1 class="ms-2">Electrical Engineering 
+            Consulting Services</h1>
+        <p class="ms-1"></p><h4> Trusted leader and proven project excellence in electrical engineering services.</h4> </p>
+        <button class="contact-us-button ms-2" onclick="location.href='contact.html'">Contact Us</button>
+        <button class="read-more-button ms-2" onclick="location.href='contact.html'">Read More</button>
+      </div>
+    </section>
+
+
+
+    <div class="container-fluid cont">
+      <!-- Services Cards -->
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="./img/power 1.jpg"  width="100" height="250 " class="card-img-top" alt=">Power Generation">
+            <div class="card-body">
+              <h5 class="card-title">Power Generation</h5>
+              <p class="card-text">We specialize in designing and implementing advanced power generation systems, ensuring efficient, reliable, and sustainable energy solutions for every project..</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./img/signal_processing.jpg" width="100" height="250 "class="card-img-top" alt="Signal Processing">
+            <div class="card-body">
+              <h5 class="card-title">Signal Processing</h5>
+              <p class="card-text">We excel in crafting advanced signal processing solutions, delivering precise and efficient data analysis tailored to meet the demands of complex systems.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./img/power systems.jpg"width="100" height="250" class="card-img-top" alt="Power System Study and Analysis">
+            <div class="card-body">
+              <h5 class="card-title">Power System Study and Analysis</h5>
+              <p class="card-text">We excel in delivering precise power system studies and analyses, ensuring robust, efficient, and reliable performance for complex electrical networks.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <img src="./img/Electrical Engineering1.jpg" class="img-fluid">
+        </div>
+        <div class="col-md-8 bg-blue">
+          <div class="cusP">
+          <br><h3>Experienced Electrical  Engineering Consultants</h3>
+          <hr class="custom-line">
+          <p class="text-white ">EmirCorp Projects has been a trailblazer in the electrical engineering industry, providing top-tier consulting services for projects across the globe. With a strong foundation of technical expertise and innovative solutions, our consultants have been pivotal in shaping the success of diverse and complex electrical infrastructure projects, ensuring efficiency, reliability, and sustainability at every step..</p>
+        </div>
+        </div>
+      </div>
+
+      <div class="my-5">
+        <h4 class="text-center">Our Services Include:</h4>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item" style="cursor: pointer;" data-bs-toggle="collapse" href="#content12">
+            <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+              <div class="eng-icons">
+                <i class="fas fa-tasks fa-2x text-success"></i>
+              </div>
+              <span>Project Planning and Management</span>
+            </div>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+            </div>
+          </li>
+          <div id="content12" class="collapse px-5 drpd" >
+            <p> Effective project planning and management are key to delivering successful outcomes in complex projects. We create comprehensive roadmaps that guide projects from start to finish, focusing on timeline adherence, budget control, and quality assurance. Our strategy emphasizes resource optimization, risk mitigation, and ongoing project monitoring to ensure efficiency and minimize delays. With proven methodologies and advanced tools, we manage every aspect of the project, ensuring smooth execution, clear communication, and alignment with both operational goals and industry standards..</p>
+          </div>
+        <li class="list-group-item" style="cursor: pointer;" data-bs-toggle="collapse" href="#content11">
+          <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center">
+            <div class="eng-icons">
+            <i class="fas fa-charging-station fa-2x text-primary"></i>
+            </div>
+            <span>Power Generation</span>
+          </div>
+          <i class="fas fa-chevron-down toggle-icon"></i>
+          </div>
+        </li>
+        <div id="content11" class="collapse px-5 drpd" >
+          <p> Power generation encompasses the planning, design, and implementation of systems that convert energy sources into reliable electricity to support industrial and societal needs. In critical sectors like oil and gas, this means developing robust and efficient systems that can endure demanding environments. Emphasizing sustainability, safety, and cost-effectiveness is vital. Proper power generation infrastructure ensures reliable operations, energy efficiency, and long-term resilience. Our expertise ensures that every power generation system meets industry standards and operational demands..</p>
+        </div>
+
+        <li class="list-group-item" style="cursor: pointer;" data-bs-toggle="collapse" href="#content12">
+          <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center">
+            <div class="eng-icons">
+              <i class="fas fa-signal fa-2x text-success"></i>
+            </div>
+            <span>Signal Processing</span>
+          </div>
+          <i class="fas fa-chevron-down toggle-icon"></i>
+          </div>
+        </li>
+        <div id="content12" class="collapse px-5 drpd" >
+          <p> Signal processing is the cornerstone of transforming raw data into actionable information, enabling systems across fields like telecommunications, healthcare, and aerospace. Using sophisticated algorithms and innovative techniques, we optimize, filter, and interpret signals to enhance performance and accuracy.</p>
+        </div>
+
+        <li class="list-group-item" style="cursor: pointer;" data-bs-toggle="collapse" href="#content13">
+          <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center">
+            <div class="eng-icons">
+              <i class="fas fa-bolt fa-2x text-warning"></i>
+            </div>
+            <span>Power System Study and Analysis</span>
+          </div>
+          <i class="fas fa-chevron-down toggle-icon"></i>
+          </div>
+        </li>
+        <div id="content13" class="collapse px-5 drpd" >
+          <p>Power system study and analysis is the process of evaluating and optimizing electrical grids to ensure seamless operation under varying loads and environmental conditions. In sectors like oil and gas, where reliability is paramount, our approach includes in-depth load flow analysis, fault detection, and voltage optimization to safeguard performance. We identify potential risks, enhance system stability, and design resilient power systems that support sustainable operations. With a focus on efficiency, safety, and long-term reliability, our solutions ensure that every power system meets the highest industry standards.</p>
+        </div>
+
+        <li class="list-group-item" style="cursor: pointer;" data-bs-toggle="collapse" href="#content14">
+          <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center">
+            <div class="eng-icons">
+              <i class="fas fa-tools fa-2x text-secondary"></i>
+            </div>
+            <span>Control Systems</span>
+          </div>
+          <i class="fas fa-chevron-down toggle-icon"></i>
+          </div>
+        </li>
+        <div id="content14" class="collapse px-5 drpd" >
+          <p>Control systems are essential for maintaining precision, efficiency, and stability in industrial operations across various sectors, including oil and gas. This process involves designing and implementing systems that monitor, regulate, and automate equipment performance to prevent downtime and optimize processes. Using advanced technologies and algorithms, we develop solutions tailored to specific operational needs, ensuring safety, reliability, and seamless integration. Our expertise guarantees compliance with industry standards while delivering robust and innovative control solutions for long-term success..</p>
+        </div>
+
+        <li class="list-group-item" style="cursor: pointer;" data-bs-toggle="collapse" href="#content15">
+          <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center">
+            <div class="eng-icons">
+              <i class="fas fa-sitemap fa-2x text-danger"></i>
+            </div>
+            <span>Network Analysis</span>
+          </div>
+          <i class="fas fa-chevron-down toggle-icon"></i>
+          </div>
+        </li>
+        <div id="content15" class="collapse px-5 drpd" >
+          <p>Network analysis is the process of fine-tuning and optimizing the flow of data and connectivity across complex systems. By assessing capacity, traffic patterns, and performance, we identify potential weak points and enhance the robustness of your network. Our solutions focus on boosting efficiency, minimizing disruptions, and future-proofing infrastructure. Through innovative tools and expert insights, we design networks that not only meet current demands but are also ready to scale, ensuring seamless, reliable connectivity for years to come..</p>
+        </div>
+        
+        <li class="list-group-item" style="cursor: pointer;" data-bs-toggle="collapse" href="#content16">
+          <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center">
+            <div class="eng-icons">
+              <i class="fas fa-tachometer-alt fa-2x text-info"></i>
+            </div>
+            <span>Energy Efficiency Optimization</span>
+          </div>
+          <i class="fas fa-chevron-down toggle-icon"></i>
+          </div>
+        </li>
+        <div id="content16" class="collapse px-5 drpd" >
+          <p>Energy efficiency optimization focuses on maximizing energy usage while minimizing waste and costs across industrial operations. We develop tailored strategies to improve energy performance by identifying inefficiencies and implementing advanced technologies that reduce consumption. Our solutions incorporate energy-efficient designs, smart systems, and process improvements to ensure sustainable, cost-effective operations. By focusing on renewable energy integration and reducing carbon footprints, we help businesses achieve long-term savings while maintaining high performance and environmental responsibility..</p>
+        </div>
+        
+        <li class="list-group-item" style="cursor: pointer;" data-bs-toggle="collapse" href="#content17">
+          <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center">
+            <div class="eng-icons">
+              <i class="fas fa-sliders-h fa-2x text-muted"></i>
+            </div>
+            <span>Instrumentation</span>
+          </div>
+          <i class="fas fa-chevron-down toggle-icon"></i>
+          </div>
+        </li>
+        <div id="content17" class="collapse px-5 drpd" >
+          <p>Instrumentation is vital for monitoring and controlling industrial operations. We design systems that measure key variables like temperature, pressure, and flow, ensuring accurate data for safety and efficiency. Our solutions focus on reliability, seamless integration, and adherence to industry standards, enhancing performance and reducing costs. Proper instrumentation helps optimize operations, improve safety, and support predictive maintenance, ensuring long-term sustainability and minimizing downtime.</p>
+        </div>
+        </ul>
+        </div>
+        
+        
+      
+      
+
+      <section class="light">
+        <div class="container py-2">
+          <div class="h1 text-center text-dark" id="pageHeaderTitle">Sustainable Engineering Solutions</div>
+          <article class="postcard light green">
+            <a class="postcard__img_link" href="#">
+              <img class="postcard__img" src="./img/civil-card1.jpg" alt="Image Title" />
+            </a>
+            <div class="postcard__text t-dark">
+              <h1 class="postcard__title green"><a href="#">How We Can Help</a></h1>
+              <div class="postcard__bar"></div>
+              <div class="postcard__preview-txt">On your journey toward project success, EmirCorp Projects, an engineering consulting firm, serves as your trusted ally, providing comprehensive civil engineering consulting services. Our expansive expertise spans the entire gamut of civil engineering services, positioning us perfectly to support your projects, irrespective of their complexity or scale.</div>
+            </div>
+          </article>
+          <article class="postcard light yellow">
+            <a class="postcard__img_link" href="#">
+              <img class="postcard__img" src="./img/civil-card2.jpg" alt="Image Title" />
+            </a>
+            <div class="postcard__text t-dark">
+              <h1 class="postcard__title yellow"><a href="#">Why Choose Us</a></h1>
+              <div class="postcard__bar"></div>
+              <div class="postcard__preview-txt">With over 1,400 projects completed globally and over 40 years in the engineering industry, EmirCorp Projects stands as a top choice for civil engineering consulting services. Our focus on technological innovation, flexibility, and responsiveness drives our commitment to deliver consistently high-quality outcomes.</div>
+            </div>
+          </article>
+        </div>
+      </section>
+  </div>
+  
+  <div class="container-fluid drop-low">
+    <h4 class="py-2 my-0 d-flex justify-content-between align-items-center fw-bold" style="cursor: pointer;" data-bs-toggle="collapse" href="#content1">
+      <span>Develop a New Electrical System</span>
+      <i class="fas fa-chevron-down toggle-icon"></i>
+    </h4>
+    <div id="content1" class="collapse">
+      <p class="cus">Developing a new electrical system requires in-depth knowledge and precision. At Vista Projects, we use our electrical engineering expertise to assist in this process. We design power systems, select appropriate equipment, and optimize for cost, efficiency, and longevity. Regardless of your project’s nature, our team can deliver a system tailored to your unique needs..</p>
+    </div>
+    
+    <h4 class="py-2 my-0 d-flex justify-content-between align-items-center fw-bold" style="cursor: pointer;" data-bs-toggle="collapse" href="#content2">
+      <span>Improve Efficiency</span>
+      <i class="fas fa-chevron-down toggle-icon"></i>
+    </h4>
+    <div id="content2" class="collapse">
+      <p class="cus">Improving the efficiency of your electrical system can reduce energy consumption and costs. At Vista Projects, our team can review your current system, identify inefficiencies and propose solutions. From system upgrades to technology integration, we guide your transition to energy-efficient operations, reducing your carbon footprint and cost.</p>
+    </div>
+
+    <h4 class="py-2 my-0 d-flex justify-content-between align-items-center fw-bold" style="cursor: pointer;" data-bs-toggle="collapse" href="#content3">
+      <span>System Upgrade</span>
+      <i class="fas fa-chevron-down toggle-icon"></i>
+    </h4>
+    <div id="content3" class="collapse">
+      <p class="cus">Integrating the latest technologies and systems can enhance the performance and efficiency of your electrical infrastructure. At Vista Projects, we’re proficient in executing system upgrades. Our team keeps up-to-date with advancements in technology, regulations, and best practices to ensure your system upgrade doesn’t miss a beat. We can help you integrate new features, enhance existing functionalities, and streamline operations, all while ensuring compliance with relevant standards..</p>
+    </div>
+
+    
+    <h4 class="py-2 my-0 d-flex justify-content-between align-items-center fw-bold" style="cursor: pointer;" data-bs-toggle="collapse" href="#content4">
+      <span>Plan and Manage Projects</span>
+      <i class="fas fa-chevron-down toggle-icon"></i>
+    </h4>
+    <div id="content4" class="collapse">
+      <p class="cus">Planning and managing electrical engineering projects can be a complex process. Vista Projects is here to provide guidance every step of the way. With our experience in handling electrical projects of varying scales and complexities, we can assist you in planning, scheduling, and managing all aspects of your project successfully. Trust us to deliver exceptional project management and oversight.</p>
+    </div>
+
+    
+    <h4 class="py-2 my-0 d-flex justify-content-between align-items-center fw-bold" style="cursor: pointer;" data-bs-toggle="collapse" href="#content6">
+      <span>Technology Integration </span>
+      <i class="fas fa-chevron-down toggle-icon"></i>
+    </h4>
+    <div id="content6" class="collapse">
+      <p class="cus">Incorporating new technologies into your existing electrical system can drive greater efficiency and functionality. At Vista Projects, we’re experienced in facilitating seamless technology integration. Whether it’s advanced control systems or energy-efficient technologies, we guide you through the process, ensuring successful incorporation into your system.</p>
+    </div>
+
+    
+    <h4 class="py-2 my-0 d-flex justify-content-between align-items-center fw-bold" style="cursor: pointer;" data-bs-toggle="collapse" href="#content7">
+      <span>Disaster Recovery Planning</span>
+      <i class="fas fa-chevron-down toggle-icon"></i>
+    </h4>
+    <div id="content7" class="collapse">
+      <p class="cus">A robust disaster recovery plan can safeguard your electrical systems in the event of unforeseen circumstances. At Vista Projects, we can help you establish a comprehensive disaster recovery plan that ensures fast and efficient recovery of your systems, minimizing operational downtime and loss.</p>
+    </div>
+
+    
+    <h4 class="py-2 my-0 d-flex justify-content-between align-items-center fw-bold" style="cursor: pointer;" data-bs-toggle="collapse" href="#content8">
+      <span>Cost Estimation</span>
+      <i class="fas fa-chevron-down toggle-icon"></i>
+    </h4>
+    <div id="content8" class="collapse">
+      <p class="cus">Accurate cost estimation for electrical projects is crucial for budget planning and control. Vista Projects offers professional estimating services that can help you forecast the financial implications of your project accurately. From material costs to labor expenses, we provide comprehensive and reliable estimates to facilitate your decision-making process.</p>
+    </div>
+
+    
+    <h4 class="py-2 my-0 d-flex justify-content-between align-items-center fw-bold" style="cursor: pointer;" data-bs-toggle="collapse" href="#content9">
+      <span>Feasibility Studies</span>
+      <i class="fas fa-chevron-down toggle-icon"></i>
+    </h4>
+    <div id="content9" class="collapse">
+      <p class="cus">Conducting a feasibility study is a critical step in any electrical project. It helps determine whether a project is viable, considering aspects like cost, time, and technical requirements. At Vista Projects, our team has extensive experience in conducting thorough feasibility studies. We provide you with the necessary information to make informed decisions about your electrical engineering projects.</p>
+    </div>
+  <h4 class="py-2 my-0 d-flex justify-content-between align-items-center fw-bold" style="cursor: pointer;" data-bs-toggle="collapse" href="#content7">
+    <span>Demand Analysis</span>
+    <i class="fas fa-chevron-down toggle-icon"></i>
+  </h4>
+  <div id="content7" class="collapse">
+    <p class="cus">Understanding the pattern of electrical demand and consumption is key to planning efficient electrical systems. At Vista Projects, we offer detailed demand analysis to help you optimize power use and cost. With these insights, you can make informed decisions on power generation, distribution, and energy-saving measures. Let us assist you in maximizing your energy efficiency while meeting your electrical demand effectively.</p>
+  </div>
+  <h4 class="py-2 my-0 d-flex justify-content-between align-items-center fw-bold" style="cursor: pointer;" data-bs-toggle="collapse" href="#content7">
+    <span>Infrastructure Assessment</span>
+    <i class="fas fa-chevron-down toggle-icon"></i>
+  </h4>
+  <div id="content7" class="collapse">
+    <p class="cus">Assessing your existing electrical infrastructure is crucial for identifying potential improvements or risks. Vista Projects offers comprehensive infrastructure assessments that provide a clear picture of your electrical system’s current status. Using these insights, we can offer recommendations for upgrades, maintenance, and improvements that optimize system performance and safeguard against potential risks. Partner with us to ensure your electrical infrastructure is reliable, efficient, and future-ready.</p>
+  </div>
+  </div>
+  
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+     
+  </body>
+<footer
+          class="text-center text-lg-start text-dark mt-0"
+          style="background-color: #ECEFF1"
+          >
+    <section
+             class="d-flex justify-content-between p-4 text-white my-1"
+             style="background-color: #059862"
+             >
+      <div class="me-5">
+        <span>Get connected with us on social networks:</span>
+      </div>
+
+      <div>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <div class="text-center text-md-start mt-3">
+        <!-- Grid row -->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold">EmirCorp</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              EmirCorp Projects has been a pioneer in the engineering industry, offering high-quality engineering consulting services.Our engineering consulting services have been instrumental in defining the trajectory of countless projects worldwide.
+            </p>
+          </div>
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Useful links</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-dark">Services</a>
+            </p>
+            <p>
+              <a href="#!" class="text-dark">Industries</a>
+            </p>
+            <p>
+              <a href="#!" class="text-dark">Careers</a>
+            </p>
+            <p>
+              <a href="#!" class="text-dark">Contact</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p><i class="fas fa-home mr-3"></i> Zayed The First Street, Al Munir Centre</p>
+            <p><i class="me-4"></i> 1201B, NBH Towers, Abu Dhabi, UAE</p>
+            <p><i class="fas fa-envelope mr-3"></i> info@emircorp.com</p>
+            <p><i class="fas fa-phone mr-3"></i> +971506679156</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2023 Copyright:
+      <a class="text-dark" href="https://emircorp.com/"
+         >EmirCorp.com</a
+        >
+    </div>
+  </footer>
+</html>
