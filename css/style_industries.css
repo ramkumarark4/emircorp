@@ -558,7 +558,7 @@ body {
   align-items: center;
   flex-direction: column;
   height: 100%;
-  width: 30%; /* Take up 30% of the width */
+  width: 25%; /* Take up 30% of the width */
 }
 
 .widget-title {
@@ -572,7 +572,7 @@ body {
 .card-container {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 18px;
   align-items: flex-start; /* Align cards to the left */
   width: 180%;
 }
@@ -615,7 +615,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 images per row */
   gap: 15px;
-  width: 70%; /* Take up 65% of the width */
+  width: 75%; /* Take up 65% of the width */
 }
 
 .image-card {
@@ -642,14 +642,14 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgb(3, 144, 75);
+  background: #059862;
   color: white;
   text-align: center;
   font-size: 16px;
-  font-weight: bold;
-  padding: 10px 0;
+  /* font-weight: bold; */                /*  06-02 Changes */ 
+  padding: 150px 0;                       /*  06-02 Changes */   
   opacity: 0;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition: opacity 0.3s ease, transform 0.4s ease;      /*  06-02 Changes */ 
   transform: translateY(100%);
 }
 

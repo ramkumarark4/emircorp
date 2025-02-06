@@ -65,14 +65,6 @@
   width: 70%;
 }
 
-.cus{
-  padding: 5px 5px;
-  border-radius: 10px;
-  font-size: 1.2rem;
-  color: #003456;
-  margin-bottom: 0;
-  background: linear-gradient(to left,#FFD700, #e9eae6);;
-}
 .cont{
   background: linear-gradient(to left, #185a9d, #43cea2);
 }
@@ -943,35 +935,43 @@ iframe {
   color: white;
 }
 
-
 .my-5 {
-  background: #FFF5E1;
+  background:white ;
 }
+
+
 
 
 h4.text-center {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #333;
+  color:  #00253D;
   text-transform: uppercase;
 }
 
 
+
+
 /* List Group Styling */
 .list-group-item {
-  background: #FFFAF0;
+  background: #00253D;
+  color: white;
   border: none;
   transition: all 0.3s ease-in-out;
-  border-radius: 8px;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 
+
+
 .list-group-item:hover {
-  background: #e9ecef;
+  background: #00253D;
+  color: white;
   transform: translateY(-2px);
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
 }
+
+
 
 
 /* Icon Styling */
@@ -982,10 +982,12 @@ h4.text-center {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background: rgba(0, 123, 255, 0.1);
+  background: white;
   margin-right: 15px;
   transition: all 0.3s ease-in-out;
 }
+
+
 
 
 .eng-icons i {
@@ -993,18 +995,23 @@ h4.text-center {
 }
 
 
+
+
 .list-group-item span {
-  font-weight: 700;
-  text-transform: uppercase;
+  font-weight: 500;
 }
+
+
 
 
 /* Expanding Icon */
 .toggle-icon {
   font-size: 1.2rem;
-  color: #666;
+  color:white;
   transition: transform 0.3s ease-in-out;
 }
+
+
 
 
 /* Rotate icon when expanded */
@@ -1013,16 +1020,20 @@ h4.text-center {
 }
 
 
+
+
 /* Collapsible Content */
 .drpd {
   background: #fff;
   font-size: larger;
   font-weight: 500;
-  border-left: 4px solid #007bff;
+  border-left: 4px solid #00253D;
   border-radius: 0 0 8px 8px;
   box-shadow: inset 0px 2px 6px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
 }
+
+
 
 
 /* Responsive Design */

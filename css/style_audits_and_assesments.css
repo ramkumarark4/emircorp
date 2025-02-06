@@ -532,6 +532,8 @@ body {
 
 
 
+
+
 /* Suraj  */
 /* Audits and assignments */
 .container {
@@ -548,7 +550,8 @@ body {
   border-radius: 16px;
   box-shadow: 0 4px 6px white(0, 0, 0, 0.1);
   overflow: hidden;
-  background: linear-gradient(to right,white, #059862);
+  max-height: auto;
+  /* background: linear-gradient(to right,white, #059862); */                  
 }
 
 @media (min-width: 768px) {
@@ -563,22 +566,27 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 16px;
+  padding: 10px;
+  max-height: auto;
+  max-width: 700px;
 }
 
 .image-section img {
   max-width: 100%;
   height: auto;
-  border-radius: 12px;
+  border-radius: 16px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .text-section {
   flex: 1;
-  padding: 16px;
+  padding: 82px;
   text-align: center;
-  /* background-color: #3fa47f; */
+  border-radius: 16px;
+  background: linear-gradient(to right,#34a873, #27b366);       /* 06-02 chages */
   border-radius: 0 16px 16px 0;
+  max-height: auto;
+  max-width: 1500px;
 }
 
 @media (min-width: 768px) {
@@ -730,7 +738,7 @@ body {
   padding: 16px;
   text-align: center;
   /* background-color: #34a87e; */
-  background: linear-gradient(to right,#34a873, #015637);
+  background: linear-gradient(to right,#34a873, #27b366);    /* 06-02 chnages*/
   border-radius: 0 16px 16px 0;
 }
 
@@ -808,3 +816,35 @@ body {
   font-weight: bold;
 }
 
+
+
+.container6 {                                                     /* 06-02 changes*/
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 16px;
+}
+.card6 {
+  display: flex;
+  width: 1475px;
+  background: white;
+  margin: 20px;
+  gap: 0px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.card6-title {
+  width: 25%;
+  background-color: #27b366;
+  padding: 20px;
+  font-weight: bold;
+  color: white;
+}
+.card6-content {
+  width: 100%;
+  padding: 20px;
+}
