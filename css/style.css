@@ -65,14 +65,6 @@
   width: 70%;
 }
 
-.cus{
-  padding: 5px 5px;
-  border-radius: 10px;
-  font-size: 1.2rem;
-  color: #003456;
-  margin-bottom: 0;
-  background: linear-gradient(to left,#FFD700, #e9eae6);;
-}
 .cont{
   background: linear-gradient(to left, #185a9d, #43cea2);
 }
@@ -181,11 +173,7 @@
   position: relative;
   z-index: 1;
 }
-.cus{
-  font-size: 1.2rem;
-  color: #18151f;
-  margin-bottom: 0;
-}
+
 .service-section .content h1 {
   font-size: 3rem;
   font-weight: bold;
