@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hazid</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+  <div class="container-fluid">
+      <a class="navbar-brand text-success" href="index.html"><img src="./img/Logo.png" alt="EmirCorp Logo" style="height: 55px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link" href="Index.html"><i class="fas fa-home"></i>Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link active ls dropdown-toggle" href="#" role="button"><i class="fas fa-tools"></i>Services</a>
+                  <ul class="dropdown-menu nav-drpdn">
+                      <li class="dropdown">
+                          <a class="dropdown-item dropdown-toggle" href="#">Process Safety and Management</a>
+                          <ul class="dropdown-menu">
+                              <li class="dropdown">
+                                  <a class="dropdown-item dropdown-toggle" href="#">Process Safety and Management</a>
+                                  <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="hazid.html">HAZID Study</a></li>
+                                      <li><a class="dropdown-item" href="hazop.html">HAZOP Study</a></li>
+                                      <li><a class="dropdown-item" href="alarp_assessment.html">ALARP Assessment</a></li>
+                                      <li><a class="dropdown-item" href="bowtie_analysis.html">BOW tie Analysis</a></li>
+                                      <li><a class="dropdown-item" href="Sil_Assessment.html">SIL/LOPA Assessment</a></li>
+                                      <li><a class="dropdown-item" href="safety_cases.html">Safety Cases</a></li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="#">Technical Risk</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="FERA.html">Fire and Explosion Risk Assessment (FERA)</a></li>
+                                    <li><a class="dropdown-item" href="ESSA.html">Emergency System Survivability Analysis (ESSA)</a></li>
+                                    <li><a class="dropdown-item" href="EERA.html">Escape, Evacuation and Rescue Analysis (EERA)</a></li>
+                                    <li><a class="dropdown-item" href="flare.html">Flared Radiation and Vent Dispersion Study (FLARE Study)</a></li>
+                                    <li><a class="dropdown-item" href="GDM.html">Gas Dispersion Modelling (In 2D and 3D Forms)</a></li>
+                                    <li><a class="dropdown-item" href="QRA.html">Quantitative Risk Assessment (QRA)</a></li>
+                                    <li><a class="dropdown-item" href="TRIA.html">Temporary Refuge Impairment Analysis (TRIA)</a></li>
+                                    <li><a class="dropdown-item" href="NHHA.html">Non-Hydrocarbon Hazard Analysis (NHHA)</a></li>
+                                    
+                                </ul>
+                            </li>
+                              <li class="dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="#">Loss Prevention</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="DofHS.html">Development of HSE Philosophies</a></li>
+                                    <li><a class="dropdown-item" href="HAC.html">Hazardous Area Classification</a></li>
+                                    <li><a class="dropdown-item" href="FGDL.html">Fire and Gas Detection Layouts</a></li>
+                                    <li><a class="dropdown-item" href="RAM.html">RAM Study</a></li>
+                                </ul>
+                            </li>
+                              <li class="dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="#">Operational Safety</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="FVIAR.html">FEED Verification / Independent Assurance and Review</a></li>
+                                    <li><a class="dropdown-item" href="SafetyR.html">Safety Review</a></li>
+                                    <li><a class="dropdown-item" href="ReadinessR.html">Readiness Review</a></li>
+                                    <li><a class="dropdown-item" href="MOCr.html">MOC Review / Close-Outs</a></li>
+                                    <li><a class="dropdown-item" href="ERS.html">Emergency Response Solutions</a></li>
+                                    <li><a class="dropdown-item" href="HSEOPG.html">HSE Operating Procedures/Guidelines</a></li>
+                                </ul>
+                            </li>
+                          </ul>
+                      </li>
+                
+                      <li class="dropdown">
+                        <a class="dropdown-item dropdown-toggle" href="#">Engineering Services</a>
+                        
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Process_eng.html">Process Engineering</a></li>
+                            <li><a class="dropdown-item" href="Mechanical_eng.html"> Mechanical Engineering</a></li>
+                            <li><a class="dropdown-item" href="Civil_eng.html">Civil Engineering</a></li>
+                            <li><a class="dropdown-item" href="Piping.html">Piping</a></li>
+                            <li><a class="dropdown-item" href="Electrical_eng.html">Electrical  Engineering</a></li>
+                            <li><a class="dropdown-item" href="Instrumentation_eng.html">Instrumentation Engineering </a></li>
+                            <li><a class="dropdown-item" href="Telecommunication_eng.html">Telecommunication Engineering</a></li>
+                            <li><a class="dropdown-item" href="Pipeline_Design_eng.html">Pipeline Design & Engineering</a></li>
+                            <li><a class="dropdown-item" href="Structural_eng.html">Structural Engineering</a></li>
+                            <li><a class="dropdown-item" href="Drafting_eng.html">Drafting Engineering</a></li>
+                            <li><a class="dropdown-item" href="Multi_discipline_eng.html">Multi-discipline Engineering</a></li>
+
+                           
+                        </ul>
+                    </li>
+                    <li><a class="dropdown-item" href="Audits_and_Assesments.html">Audits and Assessments</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="Industries.html"><i class="fas fa-industry"></i>Industries</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="Careers.html"><i class="fas fa-users"></i>Careers</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="Contact.html"><i class="fas fa-phone-alt"></i>Contact</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
+
+
+    <section class="service-section">
+      <img src="./img/pipelinebg.jpg" alt="Background Image" class="background-image">
+      <div class="overlay"></div>
+
+      <div class="content">
+        <h1 class="ms-2">pipeline design and Engineering </h1>
+        <p class="ms-2">Efficient pipelines engineered for tomorrow</p>
+        <button class="contact-us-button ms-2" onclick="location.href='contact.html'">Contact Us</button>
+        <button class="read-more-button ms-2" onclick="location.href='contact.html'">Read More</button>
+      </div>
+    </section>
+
+
+
+    <div class="container-fluid cont">
+      <!-- Services Cards -->
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="./img/pipeline1.jpg"height="300"width="250" class="card-img-top" alt="pipeline route selection and surveying">
+            <div class="card-body">
+              <h5 class="card-title">pipeline route selection and surveying</h5>
+              <p class="card-text">Pipeline route selection is a critical phase in pipeline design, aimed at determining the most efficient, safe, and cost-effective path for transporting materials.Surveying follows as an essential step to collect accurate topographical, geological, and environmental data of the proposed route. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./img/pipeline2.jpg" height="300"width="470"class="card-img-top" alt="Engineering management">
+            <div class="card-body">
+              <h5 class="card-title">Engineering management</h5>
+              <p class="card-text">Engineering management in pipe design and engineering involves overseeing the planning, development, and implementation of piping systems for various industries, such as oil and gas, water treatment, and manufacturing. It requires coordinating teams of engineers, designers, and technicians to ensure projects meet safety, environmental, and regulatory standards. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./img/pipeline3.jpg" height="300"width="250"class="card-img-top" alt="program management">
+            <div class="card-body">
+              <h5 class="card-title">program management</h5>
+              <p class="card-text"> Program management in pipeline design and engineering also emphasizes strategic planning to align project objectives with broader organizational goals. It involves coordinating diverse activities such as route selection, environmental impact assessments, material procurement, and construction scheduling. Stakeholder communication is a critical aspect, ensuring that clients, regulators, and community members are informed and engaged</p>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <img src="./img/pipeline4.jpg" height="400" width="500" class="img-fluid">
+        </div>
+        <div class="col-md-8 bg-blue">
+          <div class="cusP">
+          <br><h3>Experienced pipeline Engineering Consultants</h3>
+          <hr class="custom-line">
+          <p class="text-white "> Pipeline design and engineering consultants specialize in planning and designing efficient, safe, and reliable pipeline systems for transporting liquids, gases, and slurries.They offer expertise in route selection, hydraulic analysis, material selection, and compliance with industry standards and regulations. These consultants provide innovative solutions for complex challenges such as terrain variability, pressure management, and environmental impacts.</p>
+        </div>
+        </div>
+      </div>
+
+      <div class="my-5">
+        <h4 class="text-center">Our Services Include:</h4>
+        <ul class="list-group list-group-flush">
+        <li class="list-group-item" style="cursor: pointer;" data-bs-toggle="collapse" href="#content11">
+          <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center">
+            <div class="eng-icons">
+            <i class="fas fa-map-marked fa-2x text-primary"></i>
+            </div>
+            <span>pipeline route selection and surveying</span>
+          </div>
+          <i class="fas fa-chevron-down toggle-icon"></i>
+          </div>
+        </li>
+        <div id="content11" class="collapse px-5 drpd" >
+          <p>Pipeline route selection and surveying involve identifying the most efficient, cost-effective, and environmentally compliant path for a pipeline while considering terrain, land use, and regulatory constraints. </p>
+        </div>
+
+        <li class="list-group-item" style="cursor: pointer;" data-bs-toggle="collapse" href="#content12">
+          <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center">
+            <div class="eng-icons">
+              <i class="fas fa-cogs fa-2x text-success"></i>
+            </div>
+            <span>engineering management </span>
+          </div>
+          <i class="fas fa-chevron-down toggle-icon"></i>
+          </div>
+        </li>
+        <div id="content12" class="collapse px-5 drpd" >
+          <p> Engineering management combines technical expertise with leadership skills to plan, coordinate, and oversee engineering projects, ensuring they are completed efficiently, within budget, and to required standards. It focuses on optimizing resources, managing teams, and aligning technical solutions with organizational goals.</p>
+        </div>
+
+        <li class="list-group-item" style="cursor: pointer;" data-bs-toggle="collapse" href="#content13">
+          <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center">
+            <div class="eng-icons">
+              <i class="fas fa-tools fa-2x text-warning"></i>
+            </div>
+            <span>program management
+            </span>
+          </div>
+          <i class="fas fa-chevron-down toggle-icon"></i>
+          </div>
+        </li>
+        <div id="content13" class="collapse px-5 drpd" >
+          <p> Program management in pipeline design engineering involves coordinating multiple interconnected projects, such as route selection, hydraulic analysis, material design, and construction planning, to ensure the successful execution of pipeline systems. </p>
+        </div>
+
+        <li class="list-group-item" style="cursor: pointer;" data-bs-toggle="collapse" href="#content14">
+          <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center">
+            <div class="eng-icons">
+              <i class="fas fa-eye fa-2x text-secondary"></i>
+            </div>
+            <span>construction management and inspection</span>
+          </div>
+          <i class="fas fa-chevron-down toggle-icon"></i>
+          </div>
+        </li>
+        <div id="content14" class="collapse px-5 drpd" >
+          <p>  Construction management and inspection in pipeline engineering involve overseeing the planning, execution, and quality assurance of pipeline construction projects.</p>
+        </div>
+
+        <li class="list-group-item" style="cursor: pointer;" data-bs-toggle="collapse" href="#content15">
+          <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center">
+            <div class="eng-icons">
+              <i class="fas fa-plug fa-2x text-danger"></i>
+            </div>
+            <span>control panel fabrication</span>
+          </div>
+          <i class="fas fa-chevron-down toggle-icon"></i>
+          </div>
+        </li>
+        <div id="content15" class="collapse px-5 drpd" >
+          <p> Control panel fabrication in pipeline engineering involves designing, assembling, and wiring control panels that monitor and manage the operation of pipeline systems</p>
+        </div>
+        
+        <li class="list-group-item" style="cursor: pointer;" data-bs-toggle="collapse" href="#content16">
+          <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center">
+            <div class="eng-icons">
+              <i class="fas fa-cogs fa-2x text-info"></i>
+            </div>
+            <span>start-up and commissioning</span>
+          </div>
+          <i class="fas fa-chevron-down toggle-icon"></i>
+          </div>
+        </li>
+        <div id="content16" class="collapse px-5 drpd" >
+          <p>Start-up and commissioning in pipeline engineering involve testing, validating, and preparing pipeline systems for operational use after construction. </p>
+        </div>
+        
+        <li class="list-group-item" style="cursor: pointer;" data-bs-toggle="collapse" href="#content17">
+          <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center">
+            <div class="eng-icons">
+              <i class="fas fa-laptop fa-2x text-muted"></i>
+            </div>
+            <span>operator training</span>
+          </div>
+          <i class="fas fa-chevron-down toggle-icon"></i>
+          </div>
+        </li>
+        <div id="content17" class="collapse px-5 drpd" >
+          <p> Operator training in pipeline engineering involves educating pipeline operators on system functionality, safety protocols, operational procedures, and emergency response measures.  </p>
+        </div>
+        
+        <li class="list-group-item" style="cursor: pointer;" data-bs-toggle="collapse" href="#content18">
+          <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center">
+            <div class="eng-icons">
+              <i class="fas fa-gear fa-2x text-success"></i>
+            </div>
+            <span>operations support and maintenance</span>
+          </div>
+          <i class="fas fa-chevron-down toggle-icon"></i>
+          </div>
+        </li>
+        <div id="content18" class="collapse px-5 drpd" >
+          <p>Operations support and maintenance in pipeline engineering involve ongoing monitoring, troubleshooting, and servicing of pipeline systems to ensure continuous, efficient, and safe operation. </p>
+        </div>
+        </ul>
+      </div>
+      
+
+      <section class="light">
+        <div class="container py-2">
+          <div class="h1 text-center text-dark" id="pageHeaderTitle">Sustainable Engineering Solutions</div>
+          <article class="postcard light green">
+            <a class="postcard__img_link" href="#">
+              <img class="postcard__img" src="./img/civil-card1.jpg" alt="Image Title" />
+            </a>
+            <div class="postcard__text t-dark">
+              <h1 class="postcard__title green"><a href="#">How We Can Help</a></h1>
+              <div class="postcard__bar"></div>
+              <div class="postcard__preview-txt">On your journey toward project success, EmirCorp Projects, an engineering consulting firm, serves as your trusted ally, providing comprehensive civil engineering consulting services. Our expansive expertise spans the entire gamut of civil engineering services, positioning us perfectly to support your projects, irrespective of their complexity or scale.</div>
+            </div>
+          </article>
+          <article class="postcard light yellow">
+            <a class="postcard__img_link" href="#">
+              <img class="postcard__img" src="./img/civil-card2.jpg" alt="Image Title" />
+            </a>
+            <div class="postcard__text t-dark">
+              <h1 class="postcard__title yellow"><a href="#">Why Choose Us</a></h1>
+              <div class="postcard__bar"></div>
+              <div class="postcard__preview-txt">With over 1,400 projects completed globally and over 40 years in the engineering industry, EmirCorp Projects stands as a top choice for civil engineering consulting services. Our focus on technological innovation, flexibility, and responsiveness drives our commitment to deliver consistently high-quality outcomes.</div>
+            </div>
+          </article>
+        </div>
+      </section>
+  </div>
+  
+  <div class="container-fluid drop-low">
+    <h4 class="py-2 my-0 d-flex justify-content-between align-items-center fw-bold" style="cursor: pointer;" data-bs-toggle="collapse" href="#content1">
+      <span>Design Development</span>
+      <i class="fas fa-chevron-down toggle-icon"></i>
+    </h4>
+    <div id="content1" class="collapse">
+      <p class="cus">Design development in pipeline engineering involves the detailed planning and creation of pipeline systems, including routing, material selection, and structural design to meet specific operational requirements. It incorporates hydraulic analysis, environmental considerations, and regulatory compliance to ensure safe, efficient, and sustainable pipeline performance.</p>
+    </div>
+    
+    <h4 class="py-2 my-0 d-flex justify-content-between align-items-center fw-bold" style="cursor: pointer;" data-bs-toggle="collapse" href="#content2">
+      <span>Feasibility Studies </span>
+      <i class="fas fa-chevron-down toggle-icon"></i>
+    </h4> 
+    <div id="content2" class="collapse">
+      <p class="cus"> Feasibility studies in pipeline engineering involve assessing the practicality and potential success of a proposed pipeline project by evaluating factors such as cost, environmental impact, regulatory compliance, and technical challenges. </p>
+    </div>
+     
+    <h4 class="py-2 my-0 d-flex justify-content-between align-items-center fw-bold" style="cursor: pointer;" data-bs-toggle="collapse" href="#content3">
+      <span>Permit and Regulation Compliance</span>
+      <i class="fas fa-chevron-down toggle-icon"></i>
+    </h4>
+    <div id="content3" class="collapse">
+      <p class="cus">Permit and regulation compliance in pipeline design and engineering involves ensuring that all aspects of the pipeline project meet local, national, and international laws and industry standards. This includes obtaining the necessary permits, conducting environmental impact assessments, and adhering to safety, environmental, and construction regulations to ensure legal approval and minimize risks. </p >
+      </div>
+    <h4 class="py-2 my-0 d-flex justify-content-between align-items-center fw-bold" style="cursor: pointer;" data-bs-toggle="collapse" href="#content4">
+      <span>Cost Estimation</span>
+      <i class="fas fa-chevron-down toggle-icon"></i>
+    </h4>
+    <div id="content4" class="collapse">
+      <p class="cus"> Cost estimation in pipeline design and engineering involves calculating the total expenses associated with the planning, design, construction, and operation of a pipeline system. This includes costs for materials, labor, permits, equipment, and environmental considerations, as well as contingencies for unforeseen challenges. Accurate cost estimation is crucial for budgeting, project planning, and ensuring the financial feasibility of the pipeline project.</p>
+    </div>
+
+    
+    <h4 class="py-2 my-0 d-flex justify-content-between align-items-center fw-bold" style="cursor: pointer;" data-bs-toggle="collapse" href="#content5">
+      <span>Risk Analysis</span>
+      <i class="fas fa-chevron-down toggle-icon"></i>
+    </h4>
+    <div id="content5" class="collpse">
+
+    <p class="cus">Risk analysis in pipeline design and engineering involves identifying, assessing, and mitigating potential hazards that could affect the safety, functionality, or environmental impact of the pipeline. This process includes evaluating factors such as system integrity, external threats, operational risks, and environmental conditions to develop strategies that minimize risks and ensure safe, efficient pipeline operation. </p>
+    </div>
+
+    
+    <h4 class="py-2 my-0 d-flex justify-content-between align-items-center fw-bold" style="cursor: pointer;" data-bs-toggle="collapse" href="#content6">
+      <span>Quality Assurance</span>
+      <i class="fas fa-chevron-down toggle-icon"></i>
+    </h4>
+    <div id="content6" class="collapse">
+      <p class="cus">Quality assurance in pipeline design and engineering involves implementing systematic processes to ensure that pipeline systems meet design specifications, safety standards, and regulatory requirements. </p>
+    </div>
+
+    
+    <h4 class="py-2 my-0 d-flex justify-content-between align-items-center fw-bold" style="cursor: pointer;" data-bs-toggle="collapse" href="#content7">
+      <span>Sustainable Design</span>
+      <i class="fas fa-chevron-down toggle-icon"></i>
+    </h4>
+    <div id="content7" class="collapse">
+      <p class="cus">Sustainable design in pipeline engineering focuses on creating pipeline systems that minimize environmental impact, conserve resources, and ensure long-term operational efficiency. This includes using eco-friendly materials, optimizing energy consumption, reducing emissions, and incorporating designs that protect natural ecosystems and communities.</p>
+    </div>
+
+    
+    <h4 class="py-2 my-0 d-flex justify-content-between align-items-center fw-bold" style="cursor: pointer;" data-bs-toggle="collapse" href="#content8">
+      <span>Project Evaluation</span>
+      <i class="fas fa-chevron-down toggle-icon"></i>
+    </h4>
+    <div id="content8" class="collapse">
+      <p class="cus">Vital to the continuous improvement and success of any pipeline design and engineering venture is the thorough evaluation of project performance. At EmirCorp Projects, our consulting services extend beyond project delivery. We provide comprehensive project evaluation, scrutinizing the project’s efficiency and outcomes against set objectives. This allows us to pinpoint areas of improvement and to ensure lessons learned are integrated into future project executions. Our robust project evaluation process ensures your projects are continually improved and optimized for success.</p>
+    </div>
+
+    
+    <h4 class="py-2 my-0 d-flex justify-content-between align-items-center fw-bold" style="cursor: pointer;" data-bs-toggle="collapse" href="#content9">
+      <span>Infrastructure Analysis</span>
+      <i class="fas fa-chevron-down toggle-icon"></i>
+    </h4>
+    <div id="content9" class="collapse">
+      <p class="cus">Ensuring the longevity and reliability of existing infrastructure is a vital component of pipeline engineering. At EmirCorp Projects, our experienced consultants can provide in-depth infrastructure analysis. We assess the current condition of your infrastructure, identify potential issues, and propose necessary upgrades or repairs. Our meticulous evaluation can help prolong the life of your infrastructure, ensuring it remains safe, functional, and efficient.</p>
+    </div>
+
+    
+    <h4 class="py-2 my-0 d-flex justify-content-between align-items-center fw-bold" style="cursor: pointer;" data-bs-toggle="collapse" href="#content10">
+      <span>Site Selection</span>
+      <i class="fas fa-chevron-down toggle-icon"></i>
+    </h4>
+    <div id="content10" class="collapse">
+      <p class="cus"> Site selection in pipeline design engineering involves evaluating and choosing the optimal location for the pipeline route based on factors such as terrain, environmental impact, land use, and accessibility.</p>
+    </div>
+
+  
+  </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+     
+  </body>
+  <footer
+          class="text-center text-lg-start text-dark mt-0"
+          style="background-color: #ECEFF1"
+          >
+    <section
+             class="d-flex justify-content-between p-4 text-white my-1"
+             style="background-color: #059862"
+             >
+      <div class="me-5">
+        <span>Get connected with us on social networks:</span>
+      </div>
+
+      <div>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <div class="text-center text-md-start mt-3">
+        <!-- Grid row -->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold">EmirCorp</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              EmirCorp Projects has been a pioneer in the engineering industry, offering high-quality engineering consulting services.Our engineering consulting services have been instrumental in defining the trajectory of countless projects worldwide.
+            </p>
+          </div>
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Useful links</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-dark">Services</a>
+            </p>
+            <p>
+              <a href="#!" class="text-dark">Industries</a>
+            </p>
+            <p>
+              <a href="#!" class="text-dark">Careers</a>
+            </p>
+            <p>
+              <a href="#!" class="text-dark">Contact</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p><i class="fas fa-home mr-3"></i> Zayed The First Street, Al Munir Centre</p>
+            <p><i class="me-4"></i> 1201B, NBH Towers, Abu Dhabi, UAE</p>
+            <p><i class="fas fa-envelope mr-3"></i> info@emircorp.com</p>
+            <p><i class="fas fa-phone mr-3"></i> +971506679156</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2023 Copyright:
+      <a class="text-dark" href="https://emircorp.com/"
+         >EmirCorp.com</a
+        >
+    </div>
+  </footer>
+</html>
