@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Overlapping Text</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to right, #ff9966, #ff5e62);
+            font-family: Arial, sans-serif;
+            flex-direction: column;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            max-width: 1000px;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .image {
+            flex: 0 0 45%;
+            margin-left: -90px;
+            margin-top: 1620px;
+            margin-right: 10px;
+        }
+        .image img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+        }
+        .text {
+            flex: 1;
+            padding-top: 0;
+            margin-top: 1670px;
+        }
+        .text h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .text p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+        }
+        .second-card {
+            width: 100%;
+            max-width: 1000px;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        .second-card .text {
+            margin-top: 0;
+        }
+        .second-card .text h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 0;
+        }
+        .second-card .text p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+        }
+        .third-card {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            max-width: 1000px;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+            margin-top: 0;
+        }
+        .third-card .image {
+            flex: 0 0 50%;
+            margin-left: 0;
+            margin-top: 0;
+        }
+        .third-card .text {
+            flex: 1;
+            padding-top: 0;
+            margin-top: 0;
+        }
+        .vision-mission {
+            width: 100%;
+            max-width: 1000px;
+            background: white;
+            padding: 30px;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+            margin-top: 40px;
+            border-radius: 10px;
+        }
+        .vision-mission h2 {
+            font-size: 32px;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .vision-mission .card-title {
+            font-size: 24px;
+            color: #ff5e62;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+        .vision-mission p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .bullet-points {
+            list-style: none;
+            padding-left: 0;
+            margin-top: 20px;
+        }
+        .bullet-points li {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 15px;
+            position: relative;
+            padding-left: 35px;
+        }
+        .bullet-points li:before {
+            content: "✔";
+            color: #ff5e62;
+            font-size: 24px;
+            position: absolute;
+            left: 10px;
+            top: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="./img/profile-removebg.png" alt="Sample Image">
+        </div>
+        <div class="text">
+            <h2>MR. SREERAMULU NAIK</h2>
+            <p>Mr. Sreeramulu Naik holds a Bachelor of Technology in Electrical Engineering from JNTU Anantapur and a Master's degree from the National Institute of Technology (NIT) Trichy (formerly Regional Engineering College (REC) Trichy), Tamil Nadu, India. <br><br>His academic foundation in engineering, combined with extensive industry experience, has enabled him to lead and execute complex projects with technical excellence and strategic foresight. He comes with 16 years of experience in the Oil & Gas industry, holding key leadership roles across major projects.</p><br>
+        </div>
+    </div>
+    <div class="second-card">
+        <div class="text">
+            <p>As the Managing Director of EmirCorp Group, Mr. Sreeramulu Naik provides strategic leadership and executive oversight to drive the company's vision, operational excellence, and sustainable growth. With a strong foundation in Project Management, Engineering and Risk Management, he leverages extensive expertise in the Oil & Gas and Energy sectors. He is responsible for corporate governance, business strategy, and operational performance, ensuring compliance with international regulatory standards and best practices. He leads cross-functional teams to enhance efficiency, innovation, and business continuity while fostering a strong culture of safety and accountability.</p><br>
+            <p>With extensive experience working with Saipem, Shell, BP, Bechtel, Enka, and Smiths Sreeramulu Naik has successfully led complex projects across Georgia, Russia, Kazakhstan, China, the Middle East, and India. This global exposure has strengthened his expertise in multinational project execution, regulatory compliance, and cross-cultural leadership.</p><br>
+            <p>Through his leadership, EmirCorp continues to achieve exceptional engineering milestones positioning itself as a trusted and innovative partner for EPC companies and major industry players worldwide.</p>
+        </div>
+    </div>
+    <div class="third-card">
+        <div class="text">
+            <h2>About EmirCorp Group</h2>
+            <p>EmirCorp is a leading engineering and consultancy services company specializing in all engineering disciplines within the Oil & Gas sector, providing comprehensive solutions to EPC (Engineering, Procurement, and Construction) companies. The company delivers expertise in project management, engineering and detail design ensuring seamless execution of complex projects worldwide.</p><br>
+            <p>PEERSENG, founded in 2016 in Chennai, Tamil Nadu, India, specializes in engineering consultancy and risk management for the oil and gas industry. Over 8 years, we have earned a reputation for delivering innovative solutions across India, the Middle East, Europe, and the APAC region, prioritizing safety, efficiency, and operational excellence.</p><br>
+        </div>
+        <div class="image">
+            <img src="./img/14641.jpg" alt="Leadership Image">
+        </div>
+    </div>
+    <div class="second-card">
+        <div class="text">
+           <p>In July 2024, we expanded to Sharjah, UAE, with EmirCorp LLC, extending our expertise to the Middle Eastern market.</p>        <br>
+           <p>Together, PEERSENG and EmirCorp LLC bring localized expertise and global experience, offering tailored solutions to meet the complex needs of the energy sector worldwide</p>
+        </div>
+    </div>
+    <div class="vision-mission">
+        <h2>Our Vision & Mission</h2>
+        <div class="card-title">Vision</div>
+        <p>To be a globally recognized leader in engineering and consultancy services, driving safety, efficiency, and excellence in the Oil & Gas industry.</p>
+        <div class="card-title">Mission</div>
+        <ul class="bullet-points">
+            <li>Provide world-class engineering and consultancy services for EPC companies.</li>
+            <li>Uphold the highest standards of HSE, risk management, and regulatory compliance.</li>
+            <li>Leverage technology to deliver cost-effective and sustainable engineering solutions.</li>
+            <li>Foster a culture of excellence, collaboration, and continuous improvement.</li>
+            <li>Expand EmirCorp’s global footprint across international markets.</li>
+        </ul>
+    </div>
+</body>
+</html>
