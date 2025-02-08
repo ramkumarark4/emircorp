@@ -742,3 +742,18 @@ td {
   background-color: #024b43;
   transform: scale(1.10);
 }
+
+
+.footer-addr {
+  background-color: #00253D;
+  color: white;
+  padding: 10px 0;
+}
+.footer-addr h5 {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.footer-addr p {
+  margin: 0;
+  font-size: 16px;
+}

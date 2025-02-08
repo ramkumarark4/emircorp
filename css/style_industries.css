@@ -645,11 +645,10 @@ body {
   background: #059862;
   color: white;
   text-align: center;
-  font-size: 16px;
-  /* font-weight: bold; */                /*  06-02 Changes */ 
-  padding: 150px 0;                       /*  06-02 Changes */   
+  font-size: 16px;          
+  padding: 0 0;                       
   opacity: 0;
-  transition: opacity 0.3s ease, transform 0.4s ease;      /*  06-02 Changes */ 
+  transition: opacity 0.4s ease, transform 0.4s ease;      
   transform: translateY(100%);
 }
 
@@ -676,4 +675,18 @@ body {
     width: 100%; 
     grid-template-columns: 1fr; 
   }
+}
+
+.footer-addr {
+  background-color: #00253D;
+  color: white;
+  padding: 10px 0;
+}
+.footer-addr h5 {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.footer-addr p {
+  margin: 0;
+  font-size: 16px;
 }

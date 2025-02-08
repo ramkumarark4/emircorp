@@ -817,7 +817,6 @@ body {
 }
 
 
-
 .container6 {                                                     /* 06-02 changes*/
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
@@ -826,10 +825,11 @@ body {
   align-items: center;
   flex-direction: column;
   padding: 16px;
+  margin-right: auto;
 }
 .card6 {
   display: flex;
-  width: 1475px;
+  width: 95%;
   background: white;
   margin: 20px;
   gap: 0px;
@@ -847,4 +847,19 @@ body {
 .card6-content {
   width: 100%;
   padding: 20px;
+}
+
+
+.footer-addr {
+  background-color: #00253D;
+  color: white;
+  padding: 10px 0;
+}
+.footer-addr h5 {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.footer-addr p {
+  margin: 0;
+  font-size: 16px;
 }
